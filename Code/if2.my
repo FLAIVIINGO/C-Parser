@@ -1,0 +1,20 @@
+def get_max (x,y,z) :
+  if ((x >= y) and (x >= z)) : return x fi
+  if ((y >= x) and (y >= z)) : return y fi
+  return z
+fed
+def get_max_nested(x,y,z) :
+  if (x >= y) :
+    if (x >= z) : return x
+    else : return z fi
+  else:  if (y >= z) : return y
+     else : return z fi
+  fi
+fed
+
+x = get_max_nested(3,1,2)
+print x
+x = get_max_nested(2,3,1)
+print x
+x = get_max_nested(1,2,3)
+print x

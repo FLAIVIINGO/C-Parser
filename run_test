@@ -1,0 +1,6 @@
+#!/bin/bash
+for i in Code/array1.my Code/array2.my Code/array3.my Code/boolif.my Code/f1.my Code/f2.my Code/f3.my Code/f4.my Code/f5.my Code/f6.my Code/fib.my Code/file1.my Code/file2.my Code/file3.my Code/file4.my Code/file5.my Code/file6.my Code/file7.my Code/file8.my Code/file9.my Code/global.my Code/if1.my Code/if2.my Code/io1.my Code/io2.my Code/io.my Code/sort.my
+do 
+    echo -ne "     #### testing" $i "\n"
+    ./mython < $i 
+done

@@ -1,0 +1,11 @@
+def print_it(i,j) :
+   n = 3 * j + i
+   return m * n   // undeclared var
+fed
+def f() :
+   m = n*2	// undeclared var
+fed
+y = 2
+bad_call(y)	// undeclared function
+print print_it(5,y)
+print print_it(3,x)   // undeclared var

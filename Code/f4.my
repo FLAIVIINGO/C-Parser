@@ -1,0 +1,8 @@
+def f() :
+  return 99
+fed
+def print_it (x,y) :
+   return y*x + f() 
+fed
+y = print_it(8,1)
+print y

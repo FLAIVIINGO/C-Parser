@@ -1,0 +1,11 @@
+def print_it(i,j) :
+   print 3*j + i 
+   return
+fed
+def get_input() :
+  x = input
+  return x
+fed
+x = input
+print_it(get_input(),x)
+print_it(get_input(),1)

@@ -1,0 +1,18 @@
+def mycompare (x,y,z) :
+   if x >= y :
+      if x >= z :
+        result = x
+      else :
+        result = z
+      fi
+   else :
+      if y >= z :
+        result = y
+      else :
+        result = z
+      fi
+   fi
+   return result  
+fed
+print mycompare(5,6,7)
+

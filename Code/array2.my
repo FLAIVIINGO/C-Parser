@@ -1,0 +1,18 @@
+def in_array(a[], ctr) :
+   i = 0
+   while (i < ctr) :
+     x = input
+     a[i] = x
+     i = i + 1
+   elihw
+fed
+def out_array(a[],ctr) :
+   i = 0
+   while (i < ctr) :
+    print a[i]
+    i = i + 1
+   elihw
+fed
+x = [1,2,3]
+in_array(x,3)
+out_array(x,3)

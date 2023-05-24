@@ -1,0 +1,38 @@
+def in_array(a[],ctr) :
+   i = 0
+   while (i < ctr) :
+    y = input
+    a[i] = y
+    i = i + 1
+   elihw
+fed
+def out_array(a[],ctr) :
+   i = 0
+   while (i < ctr) :
+    print a[i]
+    i = i + 1
+   elihw
+fed
+def swap_elem(a[],i,j) :
+   t = a[i]
+   a[i] = a[j]
+   a[j] = t
+fed
+
+def sort_array(a[],ctr) :
+  i = 0
+  while (i <ctr) :
+    j = i
+    while (j < ctr) :
+       if (a[i] > a[j]) :
+	   swap_elem(a,i,j)
+       fi
+       j = j + 1
+    elihw
+    i = i + 1
+  elihw
+fed
+x = [1,2,3,4,4,4,4,4,4,4]
+in_array(x,4)
+sort_array(x,4)
+out_array(x,4)

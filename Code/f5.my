@@ -1,0 +1,6 @@
+def add(x,y) :
+   if (x <= 0) : return y fi
+   return 1 + add(x-1,y) 
+fed
+y = add(5,4)
+print y

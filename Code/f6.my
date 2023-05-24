@@ -1,0 +1,10 @@
+def f(x) :
+   y = 42 
+   z = 10
+   return x+ y + z
+fed
+def print_it (x,y) :
+   return y*x + f(11) 
+fed
+y = f(11)
+print y

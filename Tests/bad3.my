@@ -1,0 +1,19 @@
+
+def print_it(y) :
+   x = true 
+    x = input // error 
+   y = input
+   print false  // error
+   print y
+   return
+fed
+def myprint() : 
+   x = 3	
+   print x + y + 2  // error
+   return
+fed
+x = 2
+y = 2
+print_it(false)  // error
+print_it(x,y)  // error
+myprint(x)  // error

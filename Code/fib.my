@@ -1,0 +1,7 @@
+def fib(x) :
+   if (x < 2) : return 1 fi
+   return fib(x-1) + fib(x-2) 
+fed
+x = input
+y = fib(x)
+print y

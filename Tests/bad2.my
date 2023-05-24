@@ -1,0 +1,14 @@
+def print_it() :
+   x = 3
+   print y + x  // error missing var 
+   return
+fed
+def print_it() : //error dup definition
+   x = true
+   x = 3	// error type change
+   print x + 5 + 2
+   return
+fed
+print_it()
+x = 2
+y = 2

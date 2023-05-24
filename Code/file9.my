@@ -1,0 +1,19 @@
+def incr (n) :
+  return n + 1
+fed
+def add (x,y) :
+   result = y
+   while (0 < x and x < 29) :
+     result = incr(result)
+     x = x - 1
+     z = x + y * 2
+   elihw
+   return result  
+fed
+def print_it(i,j) :
+   m = incr(i)
+   print  add(j, m)
+   return
+fed
+print_it(5,6)
+print_it(3,1)

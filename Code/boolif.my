@@ -1,0 +1,21 @@
+def get_max (x,y,z) :
+  a = true
+  b = false
+  t = not ((not a) or (not b))
+  if (t) : print 0 else : print 1 fi
+  b = true
+  t = not ((not a) or (not b))
+  if (t) : print 1 else : print 0 fi
+  b1 = (y < x) and (z < x)
+  b2 = (y >= x) and (y >= z)
+  if b1 : return x fi
+  if b2 : return y 
+  else:  return z fi
+fed
+
+x = get_max(3,1,2)
+print x
+x = get_max(2,3,1)
+print x
+x = get_max(1,2,3)
+print x

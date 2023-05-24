@@ -1,0 +1,11 @@
+def fact(x) :
+   if x > 1 :
+     result = fact(x-1) + fact(x-2)
+   else :
+      result = 1
+   fi
+   return result  
+fed
+print fact(2)
+print fact(4)
+print fact(6)

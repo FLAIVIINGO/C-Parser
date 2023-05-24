@@ -1,0 +1,24 @@
+def swap_array(y[],i,j) :
+  t = y[i]
+  y[i] = y[j]
+  y[j] = t
+fed
+def in_array(a[], ctr) :
+   i = 0
+   while (i < ctr) :
+     x = input
+     a[i] = x
+     i = i + 1
+   elihw
+   swap_array(a,1,2)
+fed
+def out_array(a[],ctr) :
+   i = 0
+   while (i < ctr) :
+    print a[i]
+    i = i + 1
+   elihw
+fed
+x = [1,2,3,4]
+in_array(x,4)
+out_array(x,4)

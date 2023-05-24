@@ -1,0 +1,7 @@
+def print_it():
+  x = 3
+  y = true
+  print x + y
+  return
+fed
+print_it()

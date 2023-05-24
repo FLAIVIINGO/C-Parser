@@ -1,0 +1,7 @@
+def print_it () :
+   print 3*3 + 2 
+   return
+fed
+print_it()
+print 9
+print_it()

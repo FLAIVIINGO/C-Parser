@@ -1,0 +1,11 @@
+def print_it() :
+   x = 3
+   y = true
+   print x + y// error 
+   return
+fed
+print_it()
+x = 2
+y = 2
+print (x and y) * 3    // error
+print y(x) + 1    // error

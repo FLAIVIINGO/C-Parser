@@ -1,0 +1,6 @@
+def print_it (i, j) :
+   print 3*j + i 
+   return
+fed
+print_it(5,6)
+print_it(3,1)

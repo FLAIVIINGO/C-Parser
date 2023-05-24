@@ -1,0 +1,12 @@
+def get_max (x,y,z) :
+  if ((x >= y) and (x >= z)) : return x fi
+  if ((y >= x) and (y >= z)) : return y 
+  else:  return z fi
+fed
+
+x = get_max(3,1,2)
+print x
+x = get_max(2,3,1)
+print x
+x = get_max(1,2,3)
+print x

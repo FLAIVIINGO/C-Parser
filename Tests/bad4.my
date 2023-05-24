@@ -1,0 +1,14 @@
+
+def print_array(a[],count) :
+   ctr = 0
+   while ctr + 1:   // error
+     print a     // error
+     a[true] = a[ctr] + 1  // error
+     a[i] = false           // error
+     ctr[1] = 1 	// error
+   elihw
+   return
+fed
+x = [2,9,1,4]
+x[2] = 42
+print_array(x,4)  

@@ -1,0 +1,17 @@
+def print_it(i,i) :   // duplicate var
+   print 3 + i 
+   return
+fed
+def print_it(i,j) :   // duplicate function
+   i = 2
+   print 3 + j + i 
+   return
+fed
+def get_input() :
+  x = input
+  return x
+fed
+x = 1
+print_it(get_input(),x)
+x = 6
+print_it(get_input(),x)
